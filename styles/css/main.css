@@ -1,0 +1,100 @@
+svg{
+    width: 20px;
+    height: 20px;
+}
+.main{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.password-generator{
+    padding: 10px;
+    width: 30%;
+}
+
+.password-generator > div{
+    margin: 10px;
+    padding: 15px 25px ;
+}
+
+.result, .body{
+    background-color: #25222b;
+}
+
+.head{
+    text-align: center;
+    color: #7a7883;
+}
+
+.result{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.result > *{
+
+}
+
+.result > h1{
+    flex-grow: 1;
+    color: #7a7883;
+}
+
+.body{
+}
+
+.body > div{
+    padding: 10px 0;
+}
+
+.body > .head{
+    display: flex;
+}
+.body > .head > p:first-child{
+    flex-grow: 1;
+    text-align: left;
+}
+
+.body > .middle{
+}
+.body > .middle > .range > input{
+    width: 100%;
+    border-color: greenyellow;
+}
+.body > .middle > div{
+    padding: 10px 0;
+}
+
+.body > .middle > div > label{
+    padding-left: 15px;
+}
+
+.strong{
+    background-color: #181620;
+    padding: 15px !important;
+    font-size: 14px;
+}
+
+.submit{
+}
+
+.submit > button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border: 1px solid greenyellow;
+    background-color: transparent;
+}
+.submit > button > p{
+    flex-grow: 1;
+    font-size: 15px;
+}
+
+.submit > button > svg{
+    width: 14px;
+    height: 15px;
+}
